@@ -7,7 +7,7 @@ services:
     volumes:
      - .:/app
     environment:
-      - DEBUG=true
+      - DEBUG=false
       - SECRET_KEY='django-insecure-81ph6of)gyz(3*fa1fhpolbt5o)ax74)hlv1e3iud+x84&2l3@'
       - DATABASE_URL=postgres://postgres:postgres@db:5432/postgres
       - ALPHA_VANTAGE_API_KEY=X86NOH6II01P7R24
